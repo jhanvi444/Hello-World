@@ -1,1 +1,15 @@
+public class HelloStringJoinApp {
 
+    public static void main(String[] args) {
+
+        if (args.length > 0) {
+
+            String joinedNames = String.join(", ", args);
+
+            System.out.println("Hello " + joinedNames);
+
+        } else {
+            System.out.println("Hello, World!");
+        }
+    }
+}
